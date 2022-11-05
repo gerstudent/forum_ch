@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Thread</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="navbar.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4" href="#">Cook Helper</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto ms-4 mb-2 mb-lg-0">
+            <li class="nav-item fs-6">
+              <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item  fs-6">
+              <a class="nav-link" href="#">Notifications</a>
+            </li>
+            <li class="nav-item fs-6">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+          </ul>
+          <form class="d-flex justify-content-center">
+            <button class="btn btn-primary">Start thread</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </main>
+
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 rounded border bg-light shadow-sm overflow-hidden">
+      <div class="px-0">
+        <h1 class="display-4 fst-italic">How to cook a dinner?</h1>
+        <p class="text-muted">January 1, 2021 by <a href="#">User</a></p>
+        <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor debitis autem,
+          iste, aperiam hic velit et dolorem porro facere numquam? Quam a omnis iure voluptas. Neque perferendis
+          doloribus incidunt..</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Answer</a>
+          <a href="#" class="btn btn-secondary my-2">Follow</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <h5 class="card-header h5">Tags</h5>
+      <div class="card-body">
+        <div class="d-grid gap-4 d-md-flex justify-content-md-start">
+          <button class="btn btn-secondary btn-sm" type="button">rice</button>
+          <button class="btn btn-secondary btn-sm" type="button">sugar</button>
+          <button class="btn btn-secondary btn-sm" type="button">bread</button>
+          <button class="btn btn-secondary btn-sm" type="button">water</button>
+          <button class="btn btn-secondary btn-sm" type="button">chicken</button>
+          <button class="btn btn-secondary btn-sm" type="button">meal</button>
+          <button class="btn btn-secondary btn-sm" type="button">salt</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <h5 class="card-header h5">Comments</h5>
+      <div class="card-body">
+        <h5 class="card-title">Name Surname</h5>
+        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, accusantium ullam
+          sapiente vero quis iusto ex id quos sunt illo numquam iure quia doloribus dolorem porro voluptatum accusamus
+          amet voluptatem. </p>
+        <div class="d-flex justify-content-between">
+          <a href="#!" class="btn btn-primary">Open replies</a>
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-success">Good</button>
+            <button type="button" class="btn btn-sm btn-outline-danger">Bad</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-body">
+        <h5 class="card-title">Name Surname</h5>
+        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, accusantium ullam
+          sapiente vero quis iusto ex id quos sunt illo numquam iure quia doloribus dolorem porro voluptatum accusamus
+          amet voluptatem. </p>
+        <div class="d-flex justify-content-between">
+          <a href="#!" class="btn btn-primary">Open replies</a>
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-success">Good</button>
+            <button type="button" class="btn btn-sm btn-outline-danger">Bad</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-4">
+      <div class="card-body">
+        <h5 class="card-title">Name Surname</h5>
+        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, accusantium ullam
+          sapiente vero quis iusto ex id quos sunt illo numquam iure quia doloribus dolorem porro voluptatum accusamus
+          amet voluptatem. </p>
+        <div class="d-flex justify-content-between">
+          <a href="#!" class="btn btn-primary">Open replies</a>
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-success">Good</button>
+            <button type="button" class="btn btn-sm btn-outline-danger">Bad</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
